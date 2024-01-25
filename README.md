@@ -2,7 +2,7 @@
 
 It is crucial you read the "Your mission" section in full before you start. We recommend re-reading it before submitting.
 
-Please do not fork this respository. Instead, clone it and push it to your own private repository. When you are ready to submit, please add the following users as collaborators to your repository, or download it as a ZIP for submission.
+Please do not release your solution publicly on GitHub. Instead, clone it and push it to your own private repository. Please attempt to maintain the Git history so we can quickly and easily see your changes. When you are ready to submit, please add the following users as collaborators to your repository, or download it as a ZIP for submission.
 
 - https://github.com/DuffleOne
 - https://github.com/billinghamj
@@ -27,16 +27,16 @@ The goal is to add a new endpoint that will return a list of all the sessions as
 
 ### Part 2
 
-We now have 3 endpoints that all do very similiar things. What would it look like if we had just 1 endpoint with a flexible filter and pagination? Without changing the service code, what would the request struct look like? Write out just the struct as you would want it for that future endpoint.
+We now have 3 endpoints that all do very similiar things. What would it look like if we had just 1 endpoint with a flexible filter and pagination? Without changing the service code, what would the request and response structs look like? Write out just the two structs as you would want it for that future endpoint, along with a JSON schema for validating the input.
 
 ## Requirements & grading criteria
 
-* We will look for code that is minimal, clean, and readable.
-* We are keen on consistency and attention to detail.
-* We are looking for code that stylistically matches the rest of the codebase.
-* We are looking for your code to build if we run `go build ./...`
-* We are looking for you to spend no more than 20 to 30 minutes on this task.
+- We will look for code that is minimal, clean, and readable.
+- We are keen on consistency and attention to detail.
+- We are looking for code that stylistically matches the rest of the codebase.
+- We are looking for your code to build if we run `go build ./...`
+- We are looking for you to spend no more than 20 to 30 minutes on this task.
 
-* We are not looking for any testing, or automation or proof of correctness.
-* Do not worry about authentication.
-* Do not worry about marshalling structs or the HTTP transport layer. If you want to know more about how that works, review the CRPC package outside of the 20 minute allotted time.
+- We are not looking for any testing, or automation or proof of correctness.
+- Do not worry about authentication.
+- Do not worry about marshalling structs or the HTTP transport layer. If you want to know more about how that works, review the CRPC package outside of the 20 minute allotted time.
