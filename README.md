@@ -5,6 +5,7 @@ It is crucial you read the "Your mission" section in full before you start. We r
 Please do not release your solution publicly on GitHub. Instead, clone it and push it to your own private repository. Please attempt to maintain the Git history so we can quickly and easily see your changes. When you are ready to submit, please add the following users as collaborators to your repository, or download it as a ZIP for submission.
 
 - https://github.com/DuffleOne
+- https://github.com/billinghamj
 - https://github.com/clem109
 
 ## Introduction
