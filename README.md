@@ -1,4 +1,4 @@
-# Mojo take home test
+# Backend engineering task
 
 It is crucial you read the "Your mission" section in full before you start. We recommend re-reading it before submitting.
 
