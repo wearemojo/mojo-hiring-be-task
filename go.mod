@@ -1,10 +1,11 @@
 module github.com/wearemojo/lead-be-task
 
-go 1.21.5
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
-	github.com/go-chi/chi/v5 v5.0.11
+	github.com/go-chi/chi/v5 v5.2.2
 	github.com/wearemojo/mojo-public-go v0.0.0-20240119160407-110d998b669a
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.mongodb.org/mongo-driver v1.13.1
